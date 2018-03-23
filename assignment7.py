@@ -32,7 +32,7 @@ class Player:
         if keepPoints == True:
             self.gameTotal += self.turnTotal
         self.turnTotal = 0
-        if self.gameTotal >= 50:
+        if self.gameTotal >= 100:
             return True
 
     # Get the users Decision to roll or hold
